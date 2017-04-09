@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android_Facebook_Layout</string>
+    <string name="test_string">Shit %1$d</string>
+    <string name="string_status">What\'s on your mind ?</string>
+    <string name="string_search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
