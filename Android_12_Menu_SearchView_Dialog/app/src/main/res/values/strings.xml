@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android_12_Menu_SearchView_Dialog</string>
+    <string name="add">Add</string>
+    <string name="contact">Contact</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="delete">delete</string>
+    <string name="context_menu">Context Menu</string>
+</resources>
