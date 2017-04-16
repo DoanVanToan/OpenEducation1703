@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_avatar"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:maxHeight="@dimen/dp_30"
+                android:maxWidth="@dimen/dp_200"
+                android:textSize="@dimen/sp_15"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:textColor="@color/colorTint"
+                    android:textSize="@dimen/sp_12"/>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="@dimen/dp_15"
+                    android:layout_height="@dimen/dp_15"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:src="@drawable/icon_globe_24"
+                    android:tint="@color/colorTint"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_5"
+            android:layout_marginTop="@dimen/dp_10"
+            android:src="@drawable/icon_expand"
+            android:tint="@color/colorTint"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:hint="Some Status"
+        android:maxHeight="@dimen/dp_50"/>
+
+    <ImageView
+        android:id="@+id/image_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
