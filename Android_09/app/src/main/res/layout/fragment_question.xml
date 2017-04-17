@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:gravity="center"
+              android:orientation="vertical"
+              tools:context="com.framgia.toandoan.QuestionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/text_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello_blank_fragment"/>
+
+    <Button
+        android:id="@+id/button_send_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_send_number"/>
+
+    <!-- TODO: add button -->
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android_09_Fragment_Tablayout_ViewPager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_add_fragment">Add fragment</string>
+    <string name="action_send_number">Send current number</string>
+</resources>
