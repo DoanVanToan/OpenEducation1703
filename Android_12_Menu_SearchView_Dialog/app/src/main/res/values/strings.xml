@@ -6,4 +6,5 @@
     <string name="edit">Edit</string>
     <string name="delete">delete</string>
     <string name="context_menu">Context Menu</string>
+    <string name="msg_confirm_delete">Do you want to delete this contact</string>
 </resources>

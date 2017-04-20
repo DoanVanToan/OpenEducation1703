@@ -15,6 +15,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import toandoan.framgia.com.android_12_menu_searchview_dialog.data.local.ContactDataSource;
 import toandoan.framgia.com.android_12_menu_searchview_dialog.data.model.Contact;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ContactAdapter mAdapter;
     private List<Contact> mContacts;
     private Button mButtonContextMenu;
+    private ContactDataSource mDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +42,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         setTitle(R.string.contact);
         mContacts = new ArrayList<>();
-        for (int i = 0; i < 20; i++) {
-            mContacts.add(new Contact("Contact " + i, "0123 456 78" + i, "HN " + i));
-        }
+        mDatabase = new ContactDataSource(this);
+        mContacts = mDatabase.getAllContacts();
         mAdapter = new ContactAdapter(mContacts);
         mRecyclerContact = (RecyclerView) findViewById(R.id.recycler_contact);
 
@@ -97,14 +98,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Hàm control sự kiện của menu
         switch (item.getItemId()) {
             case R.id.menu_add:
-                // TODO: 13/04/2017 add contact 
                 // random a number and add to contact
                 Random random = new Random();
                 int randomNumber = random.nextInt(100);
-                Contact contact = new Contact("Contact " + randomNumber, "01234 56 " + randomNumber,
-                        "HN +" + randomNumber);
-                mContacts.add(0, contact);
-                mAdapter.notifyItemInserted(1);
+                Contact contact =
+                        new Contact(1, "Contact " + randomNumber, "01234 56 " + randomNumber,
+                                "HN +" + randomNumber);
+                long rowID = mDatabase.insertContact(contact);
+                if (rowID > 0) {
+                    // insert successfull
+                    contact.setId((int) rowID);
+                    mContacts.add(contact);
+                    mAdapter.notifyItemInserted(mContacts.size() - 1);
+                } else {
+                    // insert failed
+                    Toast.makeText(this, "Insert Failed", Toast.LENGTH_SHORT).show();
+                }
 
                 break;
             default:
@@ -133,6 +142,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
         popupMenu.show();
     }
-
-
 }
