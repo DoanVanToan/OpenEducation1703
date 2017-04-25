@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android_15_Retrofit</string>
+    <string name="action_get_data">Get Data</string>
+</resources>
