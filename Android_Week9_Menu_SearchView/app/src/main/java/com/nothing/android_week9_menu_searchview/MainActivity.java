@@ -1,13 +1,14 @@
 package com.nothing.android_week9_menu_searchview;
 
 import android.content.DialogInterface;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SearchView;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,9 +21,11 @@ import java.util.List;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity implements ContactAdapter.WorkingWithContact {
+    private static final String TAG = "MainActivity";
     private List<Contact> mContactList, mSearchList;
     private ContactAdapter mContactAdapter, mSearchAdapter;
     private RecyclerView mRecyclerContact;
+    private LoadContractThread mThread;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +46,19 @@ public class MainActivity extends AppCompatActivity implements ContactAdapter.Wo
 //        Button buttonContactMenu = (Button) findViewById(R.id.button_context);
 //        registerForContextMenu(buttonContactMenu);
 //        buttonContactMenu.setOnClickListener(this);
+        mThread = new LoadContractThread();
+        mThread.start();
+        Log.d(TAG, "LoadContactThread: " + Thread.currentThread());
+    }
+
+    private void getContacts() {
+        try {
+            Thread.sleep(5000);
+            mContactList.clear();
+            mContactList.add(new Contact("a", "b", "c"));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -245,5 +261,19 @@ public class MainActivity extends AppCompatActivity implements ContactAdapter.Wo
             }
         });
         popupMenu.show();
+    }
+
+    public class LoadContractThread extends Thread {
+        @Override
+        public void run() {
+            Log.d(TAG, "LoadContactThread: " + Thread.currentThread());
+            getContacts();
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    mContactAdapter.notifyDataSetChanged();
+                }
+            });
+        }
     }
 }
