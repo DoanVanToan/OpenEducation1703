@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android_Week15_Retrofit</string>
+    <string name="action_get_data">Get data</string>
+    <string name="latitude">Latitude: </string>
+    <string name="longitude">Longitude: </string>
+    <string name="temperature">Temperature: </string>
+    <string name="humidity">Humidity:</string>
+    <string name="wind_speed">Wind speed:</string>
+    <string name="failed">Failed</string>
+</resources>
