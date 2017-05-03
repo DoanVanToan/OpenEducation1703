@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_16_Service/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_16_Service/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_16_Service/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_16_Service/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

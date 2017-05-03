@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/layout-v11/notification_template_big_media.xml"
+    }
+]
