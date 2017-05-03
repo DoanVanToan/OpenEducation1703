@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/framgia/.android/build-cache/001c6a2aefe8d65c7a447410e6f866fe4983809b/output/res/color-v23/abc_btn_colored_text_material.xml"
+    }
+]

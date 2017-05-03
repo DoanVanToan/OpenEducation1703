@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_16_Service/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_next.png",
+        "source": "/home/framgia/Framgia/OpenEducation1703/Android_16_Service/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_next.png"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_16_Service/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_pause.png",
+        "source": "/home/framgia/Framgia/OpenEducation1703/Android_16_Service/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_pause.png"
+    },
+    {
+        "merged": "/home/framgia/Framgia/OpenEducation1703/Android_16_Service/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_previous.png",
+        "source": "/home/framgia/Framgia/OpenEducation1703/Android_16_Service/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_previous.png"
+    }
+]

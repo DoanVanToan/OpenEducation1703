@@ -1,0 +1,4 @@
+#Tue Apr 25 15:27:39 ICT 2017
+base.0=/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/framgia/Framgia/OpenEducation1703/Android_14_Thread/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
